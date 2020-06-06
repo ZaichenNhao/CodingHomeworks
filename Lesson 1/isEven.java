@@ -1,14 +1,19 @@
 import java.util.*;
+import java.lang.Math; 
 
 /*
 
-i don't really need to explain, you check to see if a number is even.
+Youre name is John and you are a really cool highschool student, and maybe a little autistic.  You like your numbers to
+be even and a perfect square. 
 
-you will need to return a boolean value.
+You take is to take in an integer and determine if the number is even and if it is a perfect square. 
+and only if both of these conditions are met, the return is true.
+
+HINT: to find squareroot you use Math.sqrt(number)
 
 Example 1:
 
-INPUT: 92
+INPUT: 64
 OUTPUT: True
 
 Example 2:
@@ -22,12 +27,12 @@ public class Number {
 	public static boolean isEven(int amount){
 
 		//where you write your code
-
+		
 	}
 
 	public static void main(String[] args) {
 
-		List<Integer> testCases = Arrays.asList(12,64,99,67,24,1,62);
+		List<Integer> testCases = Arrays.asList(4,16,7,21,64,52,73,144);
 
 		for (int i = 0; i<testCases.size(); i++){
 
@@ -48,6 +53,7 @@ Test Case 3: false
 Test Case 4: false
 Test Case 5: true
 Test Case 6: false
-Test Case 7: true
+Test Case 7: false
+Test Case 8: true
 
 */
