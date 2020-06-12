@@ -18,7 +18,7 @@ public class word {
 	public static String returnHighlight(String str, String word) {
 
 		//here is where you write your code
-
+		
 	}
 
 	public static void main(String[] args) {
