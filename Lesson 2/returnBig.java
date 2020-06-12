@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.Math; 
 
-//return the biggest int
+//return the biggest int out of the three, if they are the same return -1
 
 public class Biq {
 
