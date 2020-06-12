@@ -13,11 +13,11 @@ public class Biq {
 
 	public static void main(String[] args) {
 
-		List<Integer> aTestCases = Arrays.asList(4,4,4,6,4,4,5,9,3,1,1);
-		List<Integer> bTestCases = Arrays.asList(4,4,4,6,4,4,5,9,3,1,1);
-		List<Integer> cTestCases = Arrays.asList(4,4,4,6,4,4,5,9,3,1,1);
+		List<Integer> aTestCases = Arrays.asList(1,1,3,9,3,3,8,-3,6,5,2);
+		List<Integer> bTestCases = Arrays.asList(2,3,2,3,9,3,2,-1,2,6,2);
+		List<Integer> cTestCases = Arrays.asList(3,2,1,3,3,9,3,-2,5,2,6);
 
-		List<Integer> correctTestCases = Arrays.asList(4,4,4,6,4,4,5,9,3,1,1);
+		List<Integer> correctTestCases = Arrays.asList(3,3,3,9,9,9,8,-1,6,6,6);
 
 		int wrongs = 0;
 
