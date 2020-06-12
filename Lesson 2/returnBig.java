@@ -1,6 +1,7 @@
 import java.util.*;
 import java.lang.Math; 
 
+//return the biggest int out of the three, if they are the same return -1
 
 public class Biq {
 
@@ -15,7 +16,11 @@ public class Biq {
 
 	public static void main(String[] args) {
 
+<<<<<<< HEAD
 		List<Integer> aTestCases = Arrays.asList(1,1,3,9,3,3,8,-3,6,5,5);
+=======
+		List<Integer> aTestCases = Arrays.asList(1,1,3,9,3,3,8,-3,6,5,2);
+>>>>>>> b88f00c3739b61f179d9586b89b66662c89eed85
 		List<Integer> bTestCases = Arrays.asList(2,3,2,3,9,3,2,-1,2,6,2);
 		List<Integer> cTestCases = Arrays.asList(3,2,1,3,3,9,3,-2,5,2,6);
 
