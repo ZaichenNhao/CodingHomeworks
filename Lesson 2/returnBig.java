@@ -5,7 +5,7 @@ import java.lang.Math;
 
 public class Biq {
 
-	returnBiq(int a, int b, int c) {
+	public static int returnBiq(int a, int b, int c) {
 
 		//here is where you write your code
 
